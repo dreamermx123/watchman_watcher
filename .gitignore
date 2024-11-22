@@ -1,0 +1,28 @@
+venv/
+
+# Конфиденциальные файлы окружения
+*.env
+*.env.*
+
+# Кэш Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Логи
+*.log
+*.tmp
+
+# Файлы IDE и редакторов
+.vscode/
+
+# Сборка Cython
+build/
+dist/
+
+# Файлы зависимостей
+pip-wheel-metadata/
+*.lock
+
+# Файлы сборки Qt
+*.qrc-generated
